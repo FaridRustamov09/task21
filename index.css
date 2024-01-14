@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@700;900&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-image: url(Bitmap.svg);
+  min-height: 100vh;
+}
+.container .login {
+  width: 570px;
+  border-radius: 6px;
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  padding: 57px 48px 48px 48px;
+  margin-right: auto;
+}
+.login b {
+  color: var(--Text_Dark, #391400);
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Epilogue;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 32px;
+  margin-bottom: 23px;
+}
+.login input {
+  width: 474px;
+  height: 48px;
+  border-radius: 6px;
+  border: 1px solid #f3d1bf;
+  background: #fff;
+  margin-bottom: 28px;
+  padding-left: 16px;
+  outline: none;
+}
+textarea {
+  width: 474px;
+  height: 128px;
+  border-radius: 6px;
+  border: 1px solid #f3d1bf;
+  background: #fff;
+  resize: none;
+  padding: 7px;
+  outline: none;
+  margin-bottom: 20px;
+}
+button {
+  width: 154px;
+  height: 48px;
+  border-radius: 6px;
+  background: #ef6d58;
+  color: #fff;
+  text-align: center;
+  font-family: Epilogue;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  text-transform: uppercase;
+  border: none;
+  margin-right: 48px;
+}
